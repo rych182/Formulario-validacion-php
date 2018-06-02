@@ -10,6 +10,7 @@
 	<div class="wrap">
 		<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 			<!--Si la variable $enviado es false y la variable $nombre declarada, entonces muestra el nombre-->
+			<!--Sirve para que no desaparezca lo que escribiste en dado caso que no llenes todos los datos del formulario-->
 			<input type="text" class="form-control" name="nombre" placeholder="Nombre:" id="nombre" value="<?php if (!$enviado && isset($nombre)) echo $nombre;?>">
 			<input type="email" class="form-control" name="correo" placeholder="Correo:" value="<?php if (!$enviado && isset($correo)) echo $correo;?>" id="correo">
 			<textarea name="mensaje" class="form-control" id="mensaje" placeholder="Mensaje"><?php if (!$enviado && isset($mensaje)) echo $mensaje;?></textarea>
