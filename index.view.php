@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+	<h2>I'm modifying this repo to do a pull in my repo in my computer</h2>
 	<div class="wrap">
 		<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 			<!--Si la variable $enviado es false y la variable $nombre declarada, entonces muestra el nombre-->
