@@ -34,6 +34,8 @@
 			<input type="submit" value="Enviar" name="submit" class="btn btn-primary">
 		</form>
 		<h1>I'm modifying to do a commit to test how to create a commit from GitHub Desktop</h1>
+	
+		<h2>I'm testing the branches in GitHub Desktop </h2>
 	</div>
 </body>
 </html>
